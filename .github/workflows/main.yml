@@ -24,5 +24,5 @@ jobs:
 
     - name: check code quality
       run: |
-        mvn clean verify org.pitest:pitest-maven:mutationCoverage sonar:sonar -Dsonar.host.url=http://18.188.1.132:9000
+        mvn clean verify org.pitest:pitest-maven:mutationCoverage sonar:sonar -Dsonar.host.url=http://18.188.105.4:9000
         
